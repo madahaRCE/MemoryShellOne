@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.madahaRCE</groupId>
+    <artifactId>MemoryShellOne</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>MemoryShellOne</name>
+    <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging> <!-- 新增，pom代表是个父项目 -->
+
+    <modules> <!-- 新增 -->
+        <module>Java_Agent</module>
+        <module>Java_Hello</module>
+        <module>Java_JSP</module>
+        <module>SpringBoot_Controller</module>
+        <module>SpringBoot_Interceptor</module>
+        <module>SpringBoot_Servlet_Filter</module>
+        <module>SpringBoot_Servlet_Listener</module>
+        <module>SpringBoot_Servlet_Servlet</module>
+        <module>SpringBoot_Tomcat_Valve</module>
+    </modules>
+
+    <properties>
+        <maven.complier.source>8</maven.complier.source> <!-- 新增 -->
+        <maven.complier.target>8</maven.complier.target> <!-- 新增 -->
+    </properties>
+
+    <dependencies>
+    </dependencies>
+
+</project>
